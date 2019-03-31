@@ -14,7 +14,7 @@ services:
       - mongo
       - redis
     ports:
-      - 8010:8010
+      - 94.130.250.19:8010:8010
 
   bos-worker:
     image: blckchnd/bos-auto:latest
